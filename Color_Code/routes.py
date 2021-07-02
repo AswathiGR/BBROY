@@ -11,7 +11,7 @@ def index():
 
 @app.route('/Colorcode.html')
 def Colorcode():
-    return render_template('Colorcode.html', the_title='GET THE CODE!') 
+    return render_template('Colorcode.html') 
 
 
 
